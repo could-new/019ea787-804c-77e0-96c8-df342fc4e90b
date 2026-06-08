@@ -1,23 +1,24 @@
-# Social Network App
+# Cicy
 
-A Flutter-based social network application with support for viewing a media feed, creating new posts (pictures/videos), and managing a user profile.
+A simple, responsive social network app created in Flutter.
 
 ## Features
-- **Media Feed**: Scrollable feed showing pictures and videos from other users.
-- **Create Post**: Simple UI to upload and describe new media content.
-- **User Profile**: View user details and their past posts.
-- **Cross-Platform**: Fully responsive and runs on iOS, Android, Web, and Desktop.
+- **Home Feed:** Scroll through a list of images/videos with like, comment, and share interactions.
+- **Post Creation:** A UI for users to upload or capture new media and add captions.
+- **Profile:** View user details, stats, and a grid of their posted content.
+- **Responsive Layout:** Adaptive design that works across mobile, tablet, and desktop views with a bottom navigation bar.
 
 ## Tech Stack
 - Flutter
 - Dart
+- Material Design 3
 
-## Getting Started
-To run this application locally:
-```bash
-flutter pub get
-flutter run
-```
+## Setup
+1. Ensure you have Flutter installed.
+2. Clone this repository.
+3. Run `flutter pub get` to install dependencies.
+4. Run `flutter run` to launch the app on your preferred device or emulator.
 
-## About CouldAI
+---
+## CouldAI
 This app was generated with [CouldAI](https://could.ai), an AI app builder for cross-platform apps that turns prompts into real native iOS, Android, Web, and Desktop apps with autonomous AI agents that architect, build, test, deploy, and iterate production-ready applications.
